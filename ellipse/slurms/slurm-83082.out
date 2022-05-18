@@ -1,0 +1,130 @@
+=========================================
+SLURM_JOB_ID = 83082
+SLURM_JOB_NODELIST = node20-22
+SLURM_CPUS_ON_NODE = 1
+SLURM_JOB_PARTITION = RT
+SLURM_TASK_PID = 95987
+==========================================
+[I 2022-05-18 12:55:04.055 ServerApp] jupyterlab | extension was successfully linked.
+[I 2022-05-18 12:55:05.156 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-05-18 12:55:05.252 LabApp] JupyterLab extension loaded from /home/common/studtscm09/anaconda3/lib/python3.9/site-packages/jupyterlab
+[I 2022-05-18 12:55:05.252 LabApp] JupyterLab application directory is /home/common/studtscm09/anaconda3/share/jupyter/lab
+[I 2022-05-18 12:55:05.257 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-05-18 12:55:05.276 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-05-18 12:55:05.276 ServerApp] Обслуживание блокнотов из локального каталога: /home/common/studtscm09
+[I 2022-05-18 12:55:05.276 ServerApp] Jupyter Server 1.4.1 is running at:
+[I 2022-05-18 12:55:05.277 ServerApp] http://localhost:8960/lab?token=a22022f7381ba72d1a57c36f536a4a40896af68ee224a838
+[I 2022-05-18 12:55:05.277 ServerApp]  or http://127.0.0.1:8960/lab?token=a22022f7381ba72d1a57c36f536a4a40896af68ee224a838
+[I 2022-05-18 12:55:05.277 ServerApp] Используйте Control-C, для остановки этого сервера и выключения всех ядер (дважды, чтобы пропустить подтверждение).
+[C 2022-05-18 12:55:05.283 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/common/studtscm09/.local/share/jupyter/runtime/jpserver-96004-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8960/lab?token=a22022f7381ba72d1a57c36f536a4a40896af68ee224a838
+     or http://127.0.0.1:8960/lab?token=a22022f7381ba72d1a57c36f536a4a40896af68ee224a838
+[W 2022-05-18 12:57:54.633 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2022-05-18 12:57:56.312 ServerApp] 404 GET /api/contents/ellipse/data/process/log.lammps?content=0&1652867876206 (::1): No such file or directory: ellipse/data/process/log.lammps
+[W 2022-05-18 12:57:56.313 ServerApp] No such file or directory: ellipse/data/process/log.lammps
+[W 2022-05-18 12:57:56.313 ServerApp] 404 GET /api/contents/ellipse/data/process/log.lammps?content=0&1652867876206 (::1) 1.29ms referer=http://localhost:8960/lab/tree/ellipse/data/process/in.indent_new
+[W 2022-05-18 12:57:56.569 ServerApp] Notebook lesson_25_03/generate_structure.ipynb is not trusted
+[W 2022-05-18 12:57:56.724 ServerApp] Notebook lesson_18_03/lab_18_03.ipynb is not trusted
+[W 2022-05-18 12:57:56.830 ServerApp] Notebook lesson_08_04/file_reading.ipynb is not trusted
+[W 2022-05-18 12:57:56.837 ServerApp] Notebook ellipse/Indent_Project.ipynb is not trusted
+[W 2022-05-18 12:57:56.848 ServerApp] Notebook lesson_18_03/lab_11_03.ipynb is not trusted
+[I 2022-05-18 12:57:57.716 ServerApp] Kernel started: 3ef2812d-67af-4878-a5d2-f2616feb55d2
+[I 2022-05-18 12:57:57.718 ServerApp] Kernel started: cfffcb41-efd3-4c2e-a883-ac30336aba19
+[I 2022-05-18 12:57:57.802 ServerApp] Kernel started: 430a14f7-ae5d-443d-90d7-c75b090591dd
+[I 2022-05-18 12:57:57.804 ServerApp] Kernel started: 0bddf838-337e-4c4f-9185-8c6458f3af16
+[E 2022-05-18 12:57:57.925 ServerApp] Uncaught exception GET /api/kernels?1652867877775 (::1)
+    HTTPServerRequest(protocol='http', host='localhost:8960', method='GET', uri='/api/kernels?1652867877775', version='HTTP/1.1', remote_ip='::1')
+    Traceback (most recent call last):
+      File "/home/common/studtscm09/anaconda3/lib/python3.9/site-packages/tornado/web.py", line 1704, in _execute
+        result = await result
+      File "/home/common/studtscm09/anaconda3/lib/python3.9/site-packages/jupyter_server/services/kernels/handlers.py", line 32, in get
+        kernels = await ensure_async(km.list_kernels())
+      File "/home/common/studtscm09/anaconda3/lib/python3.9/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 391, in list_kernels
+        model = self.kernel_model(kernel_id)
+      File "/home/common/studtscm09/anaconda3/lib/python3.9/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 380, in kernel_model
+        "last_activity": isoformat(kernel.last_activity),
+    AttributeError: 'AsyncIOLoopKernelManager' object has no attribute 'last_activity'
+[W 2022-05-18 12:57:57.933 ServerApp] Unhandled error
+[E 2022-05-18 12:57:57.933 ServerApp] {
+      "Host": "localhost:8960",
+      "Pragma": "no-cache",
+      "Accept": "*/*",
+      "Authorization": "token a22022f7381ba72d1a57c36f536a4a40896af68ee224a838",
+      "X-Xsrftoken": "2|95eb2edd|3a5b6cd6328df8e50925dff0ccef7b31|1652809725",
+      "Accept-Language": "ru",
+      "Accept-Encoding": "gzip, deflate",
+      "Cache-Control": "no-cache",
+      "Content-Type": "application/json",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15",
+      "Referer": "http://localhost:8960/lab/tree/ellipse/data/process/in.indent_new",
+      "Connection": "keep-alive",
+      "Cookie": "username-localhost-8960=\"2|1:0|10:1652867877|23:username-localhost-8960|44:ZTk0MzUwZGRjMTM4NDg3ZTg3NDJiMWM3YmY5MzdhMjY=|1b5a384d1865786bbe14bc50eda20770f39b0c91fca17ec4d1443fbb5e354b4d\"; _xsrf=2|95eb2edd|3a5b6cd6328df8e50925dff0ccef7b31|1652809725; username-localhost-8888=\"2|1:0|10:1652728078|23:username-localhost-8888|44:NGQ2ZjFkYTIyNzJiNDhlMTljY2RkYmE3YmM2OGNjMzA=|72c2ae99dd8dab2af99c2f888bc939faf6e14d72964733d9d870a466bc203a57\"; Pycharm-d1e0e52a=6f546aee-90bd-467e-aec4-4e7937f8885b"
+    }
+[E 2022-05-18 12:57:57.934 ServerApp] 500 GET /api/kernels?1652867877775 (::1) 46.09ms referer=http://localhost:8960/lab/tree/ellipse/data/process/in.indent_new
+[I 2022-05-18 12:57:57.939 ServerApp] Kernel started: b088a0ed-f668-4837-9684-7d3dba6c3e3a
+[I 2022-05-18 12:59:57.573 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[W 2022-05-18 13:05:17.763 ServerApp] 404 GET /api/contents/ellipse/data/process?content=1&1652868317648 (::1): No such file or directory: ellipse/data/process
+[W 2022-05-18 13:05:17.763 ServerApp] No such file or directory: ellipse/data/process
+[W 2022-05-18 13:05:17.764 ServerApp] 404 GET /api/contents/ellipse/data/process?content=1&1652868317648 (::1) 3.77ms referer=http://localhost:8960/lab/tree/ellipse/Indent_Project.ipynb
+[W 2022-05-18 13:48:31.276 ServerApp] WebSocket ping timeout after 119961 ms.
+[W 2022-05-18 13:48:31.290 ServerApp] WebSocket ping timeout after 119973 ms.
+[W 2022-05-18 13:48:31.335 ServerApp] WebSocket ping timeout after 119982 ms.
+[W 2022-05-18 13:48:31.347 ServerApp] WebSocket ping timeout after 119994 ms.
+[W 2022-05-18 13:48:31.389 ServerApp] WebSocket ping timeout after 119992 ms.
+[W 2022-05-18 13:48:31.391 ServerApp] WebSocket ping timeout after 119993 ms.
+[W 2022-05-18 13:48:31.393 ServerApp] WebSocket ping timeout after 119981 ms.
+[I 2022-05-18 13:48:36.279 ServerApp] Starting buffering for cfffcb41-efd3-4c2e-a883-ac30336aba19:61ae73eb-3620-4661-8f6f-17489013eaa8
+[I 2022-05-18 13:48:36.292 ServerApp] Starting buffering for 3ef2812d-67af-4878-a5d2-f2616feb55d2:ffe7186f-e5c1-4294-bf2e-3cbe59113db7
+[I 2022-05-18 13:48:36.336 ServerApp] Starting buffering for 430a14f7-ae5d-443d-90d7-c75b090591dd:5188f97d-ceb2-4272-87ab-b26813a3611b
+[I 2022-05-18 13:48:36.349 ServerApp] Starting buffering for 0bddf838-337e-4c4f-9185-8c6458f3af16:8cf58b65-3fb7-4376-9b39-307778b3ec61
+[I 2022-05-18 13:48:36.393 ServerApp] Starting buffering for b088a0ed-f668-4837-9684-7d3dba6c3e3a:e1a6ae2d-b855-4e43-9d53-f8615677f354
+[I 2022-05-18 14:08:41.092 ServerApp] Restoring connection for b088a0ed-f668-4837-9684-7d3dba6c3e3a:e1a6ae2d-b855-4e43-9d53-f8615677f354
+[I 2022-05-18 14:08:44.434 ServerApp] Starting buffering for b088a0ed-f668-4837-9684-7d3dba6c3e3a:49452f20-a0ed-48ea-96dd-0ad330b8168c
+[W 2022-05-18 14:08:46.135 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2022-05-18 14:08:47.355 ServerApp] 404 GET /api/contents/ellipse/data/process/in.indent_new?content=0&1652872127306 (::1): No such file or directory: ellipse/data/process/in.indent_new
+[W 2022-05-18 14:08:47.355 ServerApp] No such file or directory: ellipse/data/process/in.indent_new
+[W 2022-05-18 14:08:47.356 ServerApp] 404 GET /api/contents/ellipse/data/process/in.indent_new?content=0&1652872127306 (::1) 1.20ms referer=http://localhost:8960/lab/tree/ellipse/Indent_Project.ipynb
+[W 2022-05-18 14:08:47.702 ServerApp] Notebook lesson_18_03/lab_18_03.ipynb is not trusted
+[W 2022-05-18 14:08:47.813 ServerApp] Notebook lesson_18_03/lab_11_03.ipynb is not trusted
+[W 2022-05-18 14:08:47.821 ServerApp] Notebook lesson_25_03/generate_structure.ipynb is not trusted
+[W 2022-05-18 14:08:47.827 ServerApp] Notebook lesson_08_04/file_reading.ipynb is not trusted
+[W 2022-05-18 14:08:48.044 ServerApp] Notebook ellipse/Indent_Project.ipynb is not trusted
+[I 2022-05-18 16:00:03.730 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[I 2022-05-18 16:02:10.222 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[I 2022-05-18 16:04:10.276 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[I 2022-05-18 16:06:10.330 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[I 2022-05-18 16:08:10.382 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[I 2022-05-18 16:10:10.436 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[W 2022-05-18 16:11:51.035 ServerApp] 404 GET /files/ellipse/ellipse/data/changing_k/energies.png?_xsrf=2%7C95eb2edd%7C3a5b6cd6328df8e50925dff0ccef7b31%7C1652809725&1652879510939 (::1) 20.21ms referer=http://localhost:8960/lab/tree/ellipse/Indent_Project.ipynb
+[W 2022-05-18 16:11:57.826 ServerApp] 404 GET /files/ellipse/ellipse/data/changing_k/energies.png?_xsrf=2%7C95eb2edd%7C3a5b6cd6328df8e50925dff0ccef7b31%7C1652809725&1652879517746 (::1) 0.90ms referer=http://localhost:8960/lab/tree/ellipse/Indent_Project.ipynb
+[I 2022-05-18 16:12:11.882 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[I 2022-05-18 16:14:11.953 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[W 2022-05-18 16:15:48.628 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-05-18 16:15:48.629 ServerApp] WebSocket ping timeout after 119994 ms.
+[W 2022-05-18 16:15:48.633 ServerApp] WebSocket ping timeout after 119992 ms.
+[W 2022-05-18 16:15:48.694 ServerApp] WebSocket ping timeout after 119968 ms.
+[W 2022-05-18 16:15:48.698 ServerApp] WebSocket ping timeout after 119971 ms.
+[I 2022-05-18 16:15:53.631 ServerApp] Starting buffering for 0bddf838-337e-4c4f-9185-8c6458f3af16:10575133-96e6-4e02-9bfc-8cc25d2ea4e7
+[I 2022-05-18 16:15:53.631 ServerApp] Starting buffering for 3ef2812d-67af-4878-a5d2-f2616feb55d2:55a923b3-5b8a-4afe-892d-ebf6331e2a85
+[I 2022-05-18 16:15:53.634 ServerApp] Starting buffering for cfffcb41-efd3-4c2e-a883-ac30336aba19:e09ca458-1719-49f7-9ecd-ea9aa696abe0
+[I 2022-05-18 16:15:53.695 ServerApp] Starting buffering for b088a0ed-f668-4837-9684-7d3dba6c3e3a:c38888b7-51dc-4686-a3eb-48c273e00606
+[I 2022-05-18 16:15:53.699 ServerApp] Starting buffering for 430a14f7-ae5d-443d-90d7-c75b090591dd:d7445470-cb1c-4dc9-8023-329cc1383097
+[I 2022-05-18 16:24:00.269 ServerApp] Restoring connection for 0bddf838-337e-4c4f-9185-8c6458f3af16:10575133-96e6-4e02-9bfc-8cc25d2ea4e7
+[I 2022-05-18 16:24:00.271 ServerApp] Restoring connection for 3ef2812d-67af-4878-a5d2-f2616feb55d2:55a923b3-5b8a-4afe-892d-ebf6331e2a85
+[I 2022-05-18 16:24:00.272 ServerApp] Restoring connection for cfffcb41-efd3-4c2e-a883-ac30336aba19:e09ca458-1719-49f7-9ecd-ea9aa696abe0
+[I 2022-05-18 16:24:00.284 ServerApp] Restoring connection for b088a0ed-f668-4837-9684-7d3dba6c3e3a:c38888b7-51dc-4686-a3eb-48c273e00606
+[I 2022-05-18 16:24:00.292 ServerApp] Restoring connection for 430a14f7-ae5d-443d-90d7-c75b090591dd:d7445470-cb1c-4dc9-8023-329cc1383097
+[W 2022-05-18 16:25:30.272 ServerApp] WebSocket ping timeout after 90002 ms.
+[W 2022-05-18 16:25:30.273 ServerApp] WebSocket ping timeout after 90002 ms.
+[W 2022-05-18 16:25:30.273 ServerApp] WebSocket ping timeout after 90001 ms.
+[W 2022-05-18 16:25:30.284 ServerApp] WebSocket ping timeout after 90000 ms.
+[W 2022-05-18 16:25:30.294 ServerApp] WebSocket ping timeout after 90001 ms.
+[I 2022-05-18 16:25:35.275 ServerApp] Starting buffering for 0bddf838-337e-4c4f-9185-8c6458f3af16:10575133-96e6-4e02-9bfc-8cc25d2ea4e7
+[I 2022-05-18 16:25:35.276 ServerApp] Starting buffering for 3ef2812d-67af-4878-a5d2-f2616feb55d2:55a923b3-5b8a-4afe-892d-ebf6331e2a85
+[I 2022-05-18 16:25:35.276 ServerApp] Starting buffering for cfffcb41-efd3-4c2e-a883-ac30336aba19:e09ca458-1719-49f7-9ecd-ea9aa696abe0
+[I 2022-05-18 16:25:35.284 ServerApp] Starting buffering for b088a0ed-f668-4837-9684-7d3dba6c3e3a:c38888b7-51dc-4686-a3eb-48c273e00606
+[I 2022-05-18 16:25:35.295 ServerApp] Starting buffering for 430a14f7-ae5d-443d-90d7-c75b090591dd:d7445470-cb1c-4dc9-8023-329cc1383097

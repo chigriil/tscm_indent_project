@@ -1,0 +1,146 @@
+=========================================
+SLURM_JOB_ID = 84824
+SLURM_JOB_NODELIST = node20-25
+SLURM_CPUS_ON_NODE = 1
+SLURM_JOB_PARTITION = RT
+SLURM_TASK_PID = 392885
+==========================================
+[I 2022-05-18 16:54:02.567 ServerApp] jupyterlab | extension was successfully linked.
+[I 2022-05-18 16:54:03.551 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-05-18 16:54:03.714 LabApp] JupyterLab extension loaded from /home/common/studtscm09/anaconda3/lib/python3.9/site-packages/jupyterlab
+[I 2022-05-18 16:54:03.714 LabApp] JupyterLab application directory is /home/common/studtscm09/anaconda3/share/jupyter/lab
+[I 2022-05-18 16:54:03.718 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-05-18 16:54:03.735 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-05-18 16:54:03.736 ServerApp] Обслуживание блокнотов из локального каталога: /home/common/studtscm09
+[I 2022-05-18 16:54:03.736 ServerApp] Jupyter Server 1.4.1 is running at:
+[I 2022-05-18 16:54:03.736 ServerApp] http://localhost:8960/lab?token=9b44875d1bc6b0abfde492aaa681c06ee61d550ec9408a5b
+[I 2022-05-18 16:54:03.736 ServerApp]  or http://127.0.0.1:8960/lab?token=9b44875d1bc6b0abfde492aaa681c06ee61d550ec9408a5b
+[I 2022-05-18 16:54:03.737 ServerApp] Используйте Control-C, для остановки этого сервера и выключения всех ядер (дважды, чтобы пропустить подтверждение).
+[C 2022-05-18 16:54:03.742 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/common/studtscm09/.local/share/jupyter/runtime/jpserver-392901-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8960/lab?token=9b44875d1bc6b0abfde492aaa681c06ee61d550ec9408a5b
+     or http://127.0.0.1:8960/lab?token=9b44875d1bc6b0abfde492aaa681c06ee61d550ec9408a5b
+[W 2022-05-18 16:54:38.321 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2022-05-18 16:54:40.291 ServerApp] Notebook lesson_18_03/lab_11_03.ipynb is not trusted
+[W 2022-05-18 16:54:40.450 ServerApp] Notebook lesson_18_03/lab_18_03.ipynb is not trusted
+[W 2022-05-18 16:54:40.568 ServerApp] Notebook lesson_25_03/generate_structure.ipynb is not trusted
+[W 2022-05-18 16:54:40.573 ServerApp] Notebook lesson_08_04/file_reading.ipynb is not trusted
+[W 2022-05-18 16:54:40.591 ServerApp] Notebook ellipse/Indent_Project.ipynb is not trusted
+[I 2022-05-18 16:54:41.206 ServerApp] Kernel started: aaff9a5a-b7ae-4dd7-a668-8f10321b254f
+[I 2022-05-18 16:54:41.226 ServerApp] Kernel started: f9a231e7-0baa-4238-95e2-a54929b773df
+[I 2022-05-18 16:54:41.252 ServerApp] Kernel started: 1689fa8c-a204-4c11-9a61-7d58ba4ee4ef
+[I 2022-05-18 16:54:41.298 ServerApp] Kernel started: b4dbc495-6789-49a4-a758-c87e8fa62e2b
+[I 2022-05-18 16:54:41.380 ServerApp] Kernel started: cc774969-529a-4dd9-af96-8d36e6045b85
+[I 2022-05-18 16:56:41.237 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[I 2022-05-18 17:02:41.977 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[I 2022-05-18 17:08:42.545 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[I 2022-05-18 17:10:45.001 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[I 2022-05-18 17:12:47.295 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[I 2022-05-18 17:16:49.481 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[I 2022-05-18 17:18:51.406 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[I 2022-05-18 17:24:55.722 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[W 2022-05-18 17:27:44.701 ServerApp] WebSocket ping timeout after 119961 ms.
+[W 2022-05-18 17:27:44.824 ServerApp] WebSocket ping timeout after 119988 ms.
+[W 2022-05-18 17:27:44.854 ServerApp] WebSocket ping timeout after 119995 ms.
+[W 2022-05-18 17:27:44.876 ServerApp] WebSocket ping timeout after 119996 ms.
+[W 2022-05-18 17:27:44.909 ServerApp] WebSocket ping timeout after 119995 ms.
+[W 2022-05-18 17:27:44.912 ServerApp] WebSocket ping timeout after 119995 ms.
+[W 2022-05-18 17:27:44.914 ServerApp] WebSocket ping timeout after 119994 ms.
+[I 2022-05-18 17:27:49.704 ServerApp] Starting buffering for f9a231e7-0baa-4238-95e2-a54929b773df:58ed4fe5-edf2-42c7-9c9e-ecf1e76009a6
+[I 2022-05-18 17:27:49.825 ServerApp] Starting buffering for aaff9a5a-b7ae-4dd7-a668-8f10321b254f:08276d35-b009-4394-972e-73215ba4017c
+[I 2022-05-18 17:27:49.855 ServerApp] Starting buffering for 1689fa8c-a204-4c11-9a61-7d58ba4ee4ef:b405d87f-3d7d-4213-9442-9f6409677554
+[I 2022-05-18 17:27:49.877 ServerApp] Starting buffering for b4dbc495-6789-49a4-a758-c87e8fa62e2b:37bfd780-7d61-41b0-ac66-1d06b8c91ab1
+[I 2022-05-18 17:27:49.915 ServerApp] Starting buffering for cc774969-529a-4dd9-af96-8d36e6045b85:ea98110a-86c7-4856-a6a9-a503de8b3560
+[W 2022-05-18 18:48:04.293 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2022-05-18 18:48:05.962 ServerApp] Notebook lesson_18_03/lab_18_03.ipynb is not trusted
+[W 2022-05-18 18:48:06.067 ServerApp] Notebook lesson_25_03/generate_structure.ipynb is not trusted
+[W 2022-05-18 18:48:06.074 ServerApp] Notebook lesson_08_04/file_reading.ipynb is not trusted
+[W 2022-05-18 18:48:06.783 ServerApp] Notebook ellipse/Indent_Project.ipynb is not trusted
+[W 2022-05-18 18:48:06.940 ServerApp] Notebook lesson_18_03/lab_11_03.ipynb is not trusted
+[I 2022-05-18 18:50:08.584 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[W 2022-05-18 18:50:08.643 ServerApp] Notebook ellipse/Indent_Project.ipynb is not trusted
+[I 2022-05-18 19:23:45.949 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[W 2022-05-18 19:23:46.009 ServerApp] Notebook ellipse/Indent_Project.ipynb is not trusted
+[I 2022-05-18 19:25:47.362 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[W 2022-05-18 19:25:47.421 ServerApp] Notebook ellipse/Indent_Project.ipynb is not trusted
+[I 2022-05-18 19:27:48.773 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[W 2022-05-18 19:27:48.834 ServerApp] Notebook ellipse/Indent_Project.ipynb is not trusted
+[I 2022-05-18 19:29:50.408 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[W 2022-05-18 19:29:50.470 ServerApp] Notebook ellipse/Indent_Project.ipynb is not trusted
+[I 2022-05-18 19:31:52.114 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[I 2022-05-18 19:41:54.709 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[I 2022-05-18 19:45:56.802 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[I 2022-05-18 19:47:58.843 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[I 2022-05-18 19:52:03.779 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[I 2022-05-18 19:54:05.735 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[I 2022-05-18 19:58:08.068 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[I 2022-05-18 20:00:11.803 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[I 2022-05-18 20:02:15.790 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[W 2022-05-18 21:32:38.062 ServerApp] WebSocket ping timeout after 119893 ms.
+[W 2022-05-18 21:32:38.062 ServerApp] WebSocket ping timeout after 119893 ms.
+[W 2022-05-18 21:32:38.066 ServerApp] WebSocket ping timeout after 119896 ms.
+[W 2022-05-18 21:32:38.068 ServerApp] WebSocket ping timeout after 119898 ms.
+[W 2022-05-18 21:32:38.072 ServerApp] WebSocket ping timeout after 119902 ms.
+[I 2022-05-18 21:32:43.065 ServerApp] Starting buffering for 1689fa8c-a204-4c11-9a61-7d58ba4ee4ef:216aee96-35aa-4887-8294-a1f0377d077b
+[I 2022-05-18 21:32:43.065 ServerApp] Starting buffering for f9a231e7-0baa-4238-95e2-a54929b773df:8799e8ca-06d7-4b7e-9ea3-660d65c9b610
+[I 2022-05-18 21:32:43.067 ServerApp] Starting buffering for cc774969-529a-4dd9-af96-8d36e6045b85:1c2cf564-c5f5-4aae-a7b0-a83d14159c02
+[I 2022-05-18 21:32:43.069 ServerApp] Starting buffering for aaff9a5a-b7ae-4dd7-a668-8f10321b254f:d8180cf6-2329-4fdc-a560-b71a3ae55744
+[I 2022-05-18 21:32:43.073 ServerApp] Starting buffering for b4dbc495-6789-49a4-a758-c87e8fa62e2b:75ff30f0-695f-4711-a00c-9e57805755e1
+[W 2022-05-18 22:24:37.328 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2022-05-18 22:24:38.916 ServerApp] Notebook lesson_25_03/generate_structure.ipynb is not trusted
+[W 2022-05-18 22:24:38.929 ServerApp] Notebook lesson_18_03/lab_11_03.ipynb is not trusted
+[W 2022-05-18 22:24:38.938 ServerApp] Notebook lesson_08_04/file_reading.ipynb is not trusted
+[W 2022-05-18 22:24:39.091 ServerApp] Notebook lesson_18_03/lab_18_03.ipynb is not trusted
+[W 2022-05-18 22:24:40.771 ServerApp] Notebook ellipse/Indent_Project.ipynb is not trusted
+[W 2022-05-18 22:52:12.909 ServerApp] WebSocket ping timeout after 119922 ms.
+[W 2022-05-18 22:52:12.912 ServerApp] WebSocket ping timeout after 119922 ms.
+[W 2022-05-18 22:52:12.914 ServerApp] WebSocket ping timeout after 119925 ms.
+[W 2022-05-18 22:52:12.917 ServerApp] WebSocket ping timeout after 119928 ms.
+[W 2022-05-18 22:52:12.971 ServerApp] WebSocket ping timeout after 119981 ms.
+[I 2022-05-18 22:52:17.911 ServerApp] Starting buffering for f9a231e7-0baa-4238-95e2-a54929b773df:2305edd6-c6b1-4f6c-95da-6fa705c58b78
+[I 2022-05-18 22:52:17.912 ServerApp] Starting buffering for aaff9a5a-b7ae-4dd7-a668-8f10321b254f:d0e75b89-5b73-45b8-962e-3b3d2fbbf053
+[I 2022-05-18 22:52:17.915 ServerApp] Starting buffering for 1689fa8c-a204-4c11-9a61-7d58ba4ee4ef:f0a0ad0d-47eb-43b2-b60e-ed9b30df2acd
+[I 2022-05-18 22:52:17.918 ServerApp] Starting buffering for cc774969-529a-4dd9-af96-8d36e6045b85:128d6eb9-f57b-4b34-8cc3-45f5c7dc62e8
+[I 2022-05-18 22:52:17.972 ServerApp] Starting buffering for b4dbc495-6789-49a4-a758-c87e8fa62e2b:7a7ce580-ade2-44b0-9d6b-3f76cef0ff02
+[W 2022-05-18 23:18:54.424 LabApp] Could not determine jupyterlab build status without nodejs
+[E 2022-05-18 23:18:55.574 ServerApp] Uncaught exception GET /lab/api/workspaces/default?1652905134500 (::1)
+    HTTPServerRequest(protocol='http', host='localhost:8960', method='GET', uri='/lab/api/workspaces/default?1652905134500', version='HTTP/1.1', remote_ip='::1')
+    Traceback (most recent call last):
+      File "/home/common/studtscm09/anaconda3/lib/python3.9/site-packages/tornado/web.py", line 1704, in _execute
+        result = await result
+    tornado.iostream.StreamClosedError: Stream is closed
+[E 2022-05-18 23:18:55.581 ServerApp] Uncaught exception GET /lab/api/settings/@jupyterlab/shortcuts-extension:shortcuts?1652905134551 (::1)
+    HTTPServerRequest(protocol='http', host='localhost:8960', method='GET', uri='/lab/api/settings/@jupyterlab/shortcuts-extension:shortcuts?1652905134551', version='HTTP/1.1', remote_ip='::1')
+    Traceback (most recent call last):
+      File "/home/common/studtscm09/anaconda3/lib/python3.9/site-packages/tornado/web.py", line 1704, in _execute
+        result = await result
+    tornado.iostream.StreamClosedError: Stream is closed
+[E 2022-05-18 23:18:55.583 ServerApp] Uncaught exception GET /lab/api/settings/@jupyterlab/docmanager-extension:plugin?1652905134551 (::1)
+    HTTPServerRequest(protocol='http', host='localhost:8960', method='GET', uri='/lab/api/settings/@jupyterlab/docmanager-extension:plugin?1652905134551', version='HTTP/1.1', remote_ip='::1')
+    Traceback (most recent call last):
+      File "/home/common/studtscm09/anaconda3/lib/python3.9/site-packages/tornado/web.py", line 1704, in _execute
+        result = await result
+    tornado.iostream.StreamClosedError: Stream is closed
+[W 2022-05-18 23:18:56.956 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2022-05-18 23:18:59.893 ServerApp] Notebook ellipse/Indent_Project.ipynb is not trusted
+[W 2022-05-18 23:19:00.186 ServerApp] Notebook lesson_18_03/lab_11_03.ipynb is not trusted
+[W 2022-05-18 23:19:00.195 ServerApp] Notebook lesson_25_03/generate_structure.ipynb is not trusted
+[W 2022-05-18 23:19:00.352 ServerApp] Notebook lesson_18_03/lab_18_03.ipynb is not trusted
+[W 2022-05-18 23:19:00.461 ServerApp] Notebook lesson_08_04/file_reading.ipynb is not trusted
+[I 2022-05-18 23:31:30.179 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[W 2022-05-18 23:31:30.301 ServerApp] Notebook ellipse/Indent_Project.ipynb is not trusted
+[I 2022-05-18 23:33:32.514 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[W 2022-05-18 23:33:32.635 ServerApp] Notebook ellipse/Indent_Project.ipynb is not trusted
+[I 2022-05-18 23:37:35.699 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[W 2022-05-18 23:37:35.823 ServerApp] Notebook ellipse/Indent_Project.ipynb is not trusted
+[I 2022-05-18 23:39:39.729 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[W 2022-05-18 23:39:39.851 ServerApp] Notebook ellipse/Indent_Project.ipynb is not trusted
+[I 2022-05-18 23:43:43.421 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[W 2022-05-18 23:43:43.542 ServerApp] Notebook ellipse/Indent_Project.ipynb is not trusted
+[I 2022-05-18 23:45:45.978 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[W 2022-05-18 23:45:46.102 ServerApp] Notebook ellipse/Indent_Project.ipynb is not trusted
+[I 2022-05-18 23:47:49.388 ServerApp] Saving file at /ellipse/Indent_Project.ipynb
+[W 2022-05-18 23:47:49.510 ServerApp] Notebook ellipse/Indent_Project.ipynb is not trusted
